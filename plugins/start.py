@@ -92,6 +92,8 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton('♀️Channel', url='https://t.me/mc_linkez'),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    ], [
+                    InlineKeyboardButton('♀️Channel', url='https://t.me/mc_linkez')
                 ]
             ]
         )
